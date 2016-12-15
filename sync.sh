@@ -15,7 +15,7 @@ do
 		gua_le_ma='卧槽...挂了'
 	fi
 done
-
+cd /home/pi/Downloads/hello-old-driver
 test -d 'archives' || mkdir 'archives'
 cp magnet_output ./archives/magnet_output-$(date +"%F-%H%M%S")
 cp resource_list.json ./archives/resource_list.json-$(date +"%F-%H%M%S")
